@@ -32,6 +32,6 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new CleanWebpackPlugin(),
-    new HWP({ template: "./src/index.html" })
+    new HWP({ template: "./public/index.html" })
   ]
 };
